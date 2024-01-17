@@ -12,7 +12,7 @@
 
 <body>
     <!-- Navbar Section Starts Here -->
-    <section class="navbar">
+    <!-- <section class="navbar">
         <div class="container">
             <div class="logo">
                 <a href="#" title="Logo">
@@ -20,45 +20,50 @@
                 </a>
             </div>
 
-            <div class="menu text-right">
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="categories.html">Categories</a>
-                    </li>
-                    <li>
-                        <a href="foods.html">Foods</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            
 
             <div class="clearfix"></div>
         </div>
-    </section>
+    </section> -->
     <!-- Navbar Section Ends Here -->
 
     <!-- fOOD sEARCH Section Starts Here -->
+    <header class="header">
+        <h3 class="logo text-left">Fusion Flare</h3>
+        <div class="menu text-right">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#cat-btn">Categories</a>
+                </li>
+                <li>
+                    <a href="#menu-btn">Foods</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="food-search text-center">
-        <div class="container">
+        <div class="main-container">
+            
             
             <form action="food-search.html" method="POST">
                 <input type="search" name="search" placeholder="Search for Food.." required>
                 <input type="submit" name="submit" value="Search" class="btn btn-primary">
             </form>
-
         </div>
+        
     </section>
     <!-- fOOD sEARCH Section Ends Here -->
 
     <!-- CAtegories Section Starts Here -->
-    <section class="categories">
+    <section id="cat-btn" class="categories">
         <div class="container">
-            <h2 class="text-center">Explore Foods</h2>
+            <h2 class="text-center"id="Foodss">Explore Foods</h2>
 
             <a href="category-foods.html">
             <div class="box-3 float-container">
@@ -114,10 +119,13 @@
     <!-- Categories Section Ends Here -->
 
     <!-- fOOD MEnu Section Starts Here -->
-    <section class="food-menu">
+    <section id="menu-btn" class= "food-menu">
         <div class="container">
             <h2 class="text-center">Food Menu</h2>
-
+            <!-- <div class="try">
+            <h3 class="text-left">Non Veg</h3>
+            <h3 class="text-right">Veg</h3>
+        </div> -->
             <div class="food-menu-box">
                 <div class="food-menu-img">
                     <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
@@ -209,10 +217,121 @@
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>Chicken Paneer Momo</h4>
+                    <h4>Paneer Steamed Momo</h4>
                     <p class="food-price">Rs199</p>
                     <p class="food-detail">
                         Filled with soft paneer and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+        <div class="container">
+            <!-- <h2 class="text-center">Food Menu</h2> -->
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Wings</h4>
+                    <p class="food-price">Rs350</p>
+                    <p class="food-detail">
+                        Made with Indian Sauces, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-burger.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Paneer Tikka</h4>
+                    <p class="food-price">Rs350</p>
+                    <p class="food-detail">
+                        Made with Paneer marinated in tandoori sauce, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-burger.jpg" alt="Classic Chicken Burger" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Smoked barbequed Chicken</h4>
+                    <p class="food-price">Rs199</p>
+                    <p class="food-detail">
+                        Made with Chicken marinated in Desi Makhani sauce, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Grilled Paneer Taco</h4>
+                    <p class="food-price">Rs350</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Paneer, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Grilled Prawns</h4>
+                    <p class="food-price">Rs300</p>
+                    <p class="food-detail">
+                        Filled with juicy chicken and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-momo.jpg" alt="Grilled Cheese Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Grilled Mushrooms</h4>
+                    <p class="food-price">Rs199</p>
+                    <p class="food-detail">
+                        Made with Gucci mushrooms marinated in sweet chilly sauce.
                     </p>
                     <br>
 
@@ -254,7 +373,7 @@
     <!-- footer Section Starts Here -->
     <section class="footer">
         <div class="container text-center">
-            <p>All rights reserved. Designed By <a href="#">Abhijit Biswal</a></p>
+            <p>All rights reserved. Designed By <a href="#">Abhijit,Aastha,Aditya</a></p>
         </div>
     </section>
     <!-- footer Section Ends Here -->
